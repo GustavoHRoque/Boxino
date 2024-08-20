@@ -1,3 +1,12 @@
+var bgmusix = new Audio();
+bgmusix.src = "../audio/bgm.mp3";
+bgmusix.vol = 0.4;
+
+
+function playAudio(){
+  bgmusix.play();
+}
+
 
 var botao = document.getElementById("botao");
 var botao2 = document.getElementById("botao2");
@@ -23,6 +32,7 @@ let estilo8 = window.getComputedStyle(botao8);
 
 function Jogar(){
 
+  playAudio();
   fase1();
 
   setTimeout(function() {
@@ -39,6 +49,7 @@ function Jogar(){
   },45000)
 
 }
+
 
 function fase1(){
 
