@@ -7,6 +7,10 @@ function playAudio(){
   bgmusix.play();
 }
 
+function pauseAudiol(){
+  bgmusix.pause();
+}
+
 
 var botao = document.getElementById("botao");
 var botao2 = document.getElementById("botao2");
@@ -46,6 +50,7 @@ function Jogar(){
   }, 33000)
   setTimeout(function(){
     alert("você fez " + pontos + " Pontos, Acabou");
+    pauseAudiol();
   },45000)
 
 }
