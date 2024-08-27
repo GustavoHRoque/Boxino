@@ -1,3 +1,16 @@
+var bgmusix = new Audio();
+bgmusix.src = "../audio/bgm.mp3";
+bgmusix.vol = 0.4;
+
+
+function playAudio(){
+  bgmusix.play();
+}
+
+function pauseAudiol(){
+  bgmusix.pause();
+}
+
 
 var botao = document.getElementById("botao");
 var botao2 = document.getElementById("botao2");
@@ -23,6 +36,7 @@ let estilo8 = window.getComputedStyle(botao8);
 
 function Jogar(){
 
+  playAudio();
   fase1();
 
   setTimeout(function() {
@@ -36,9 +50,11 @@ function Jogar(){
   }, 33000)
   setTimeout(function(){
     alert("você fez " + pontos + " Pontos, Acabou");
+    pauseAudiol();
   },45000)
 
 }
+
 
 function fase1(){
 
@@ -167,33 +183,67 @@ function Parar(){
 }
 
 
+let clicada = false;
+let clicada2 = false;
+
 function bonus(imagem){
-  
+
   if(imagem.id == "botao" && estilo.animationName !== "none"){
-    pontos++;
+    if (clicada !== true) {
+        pontos++;
+        clicada = true;
+    }
+    
   }else if(imagem.id == "botao2" && estilo2.animationName !== "none"){
-    pontos++;
+    if (clicada2 !== true) {
+      pontos++;
+      clicada2 = true;
+    }
+    clicada = false;
   }
   else if(imagem.id == "botao3" && estilo3.animationName !== "none"){
-    pontos++;
+    if (clicada !== true) {
+      pontos++;
+      clicada = true;
+    }
+    clicada2 = false;
   }
   else if(imagem.id == "botao4" && estilo4.animationName !== "none"){
-    pontos++;
+    if (clicada2 !== true) {
+      pontos++;
+      clicada2 = true;
+    }
+    clicada = false;
   }
   else if(imagem.id == "botao5" && estilo5.animationName !== "none"){
-    pontos++;
+    if (clicada !== true) {
+      pontos++;
+      clicada = true;
+    }
+    clicada2 = false;
   }
   else if(imagem.id == "botao6" && estilo6.animationName !== "none"){
-    pontos++;
+    if (clicada2 !== true) {
+      pontos++;
+      clicada2 = true;
+    }
+    clicada = false;
   }
   else if(imagem.id == "botao7" && estilo7.animationName !== "none"){
-    pontos++;
+    if (clicada !== true) {
+      pontos++;
+      clicada = true;
+    }
+    clicada2 = false;
   }
   else if(imagem.id == "botao8" && estilo8.animationName !== "none"){
-    pontos++;
+    if (clicada2 !== true) {
+      pontos++;
+      clicada2 = true;
+    }
+    clicada = false;
   }
   
-
   let textos = document.getElementById("texto");
   textos.value = pontos;
 }
