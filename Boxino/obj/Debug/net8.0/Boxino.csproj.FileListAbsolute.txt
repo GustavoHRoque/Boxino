@@ -28,3 +28,4 @@ C:\Users\jose.ansilva3\source\repos\Boxino\Boxino\obj\Debug\net8.0\refint\Boxino
 C:\Users\jose.ansilva3\source\repos\Boxino\Boxino\obj\Debug\net8.0\Boxino.pdb
 C:\Users\jose.ansilva3\source\repos\Boxino\Boxino\obj\Debug\net8.0\Boxino.genruntimeconfig.cache
 C:\Users\jose.ansilva3\source\repos\Boxino\Boxino\obj\Debug\net8.0\ref\Boxino.dll
+C:\Users\jose.ansilva3\source\repos\Boxino\Boxino\obj\Debug\net8.0\Boxino.sourcelink.json
