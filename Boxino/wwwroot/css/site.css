@@ -45,6 +45,9 @@ main {
     height: 100vh;
     width: 100%;
     background-color: cadetblue;
+
+    /*background-image: url(../img/imgFundo.jpg);*/
+    /*background-repeat: no-repeat;*/
 }
 .container {
     display: flex;
@@ -52,23 +55,26 @@ main {
     justify-content: center;
     padding-top: 20px;
     
+    
 }
+
 #modal {
     width: 240px;
     height: 240px;
     box-shadow: 0 0 15px black;
     border-radius: 15px;
+    
 }
 
 .centralizar {
     margin-left: 280px;
+    
 }
 
-.raio{
+.raio {
     padding: 20px;
     transform: translateZ(40px);
     cursor: pointer;
-    
 }
 
 #botao {

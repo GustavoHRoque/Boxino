@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "l9xLQbIbwfDZaaCsGhDqF7R9RvDytsV3BGPcn9mNrxA=",
+  "Hash": "5WYmbAdVzjllX+ztxljKwlmzFa8Z6bCvT+H0w0BJKeo=",
   "Source": "Boxino",
   "BasePath": "_content/Boxino",
   "Mode": "Default",
@@ -55,12 +55,12 @@
       "OriginalItemSpec": "C:\\Users\\jose.ansilva3\\source\\repos\\Boxino\\Boxino\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Boxino.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\jose.ansilva3\\source\\repos\\Boxino\\Boxino\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\jose.ansilva3\\source\\repos\\Boxino\\Boxino\\wwwroot\\css\\OldSite2.css",
       "SourceId": "Boxino",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\jose.ansilva3\\source\\repos\\Boxino\\Boxino\\wwwroot\\",
       "BasePath": "_content/Boxino",
-      "RelativePath": "css/site.css",
+      "RelativePath": "css/OldSite2.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -71,7 +71,26 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\site.css"
+      "OriginalItemSpec": "wwwroot\\css\\OldSite2.css"
+    },
+    {
+      "Identity": "C:\\Users\\jose.ansilva3\\source\\repos\\Boxino\\Boxino\\wwwroot\\css\\Site.css",
+      "SourceId": "Boxino",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\jose.ansilva3\\source\\repos\\Boxino\\Boxino\\wwwroot\\",
+      "BasePath": "_content/Boxino",
+      "RelativePath": "css/Site.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Site.css"
     },
     {
       "Identity": "C:\\Users\\jose.ansilva3\\source\\repos\\Boxino\\Boxino\\wwwroot\\favicon.ico",
@@ -91,6 +110,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\jose.ansilva3\\source\\repos\\Boxino\\Boxino\\wwwroot\\img\\2.png",
+      "SourceId": "Boxino",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\jose.ansilva3\\source\\repos\\Boxino\\Boxino\\wwwroot\\",
+      "BasePath": "_content/Boxino",
+      "RelativePath": "img/2.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\2.png"
     },
     {
       "Identity": "C:\\Users\\jose.ansilva3\\source\\repos\\Boxino\\Boxino\\wwwroot\\img\\game_icon_full.png",
@@ -148,6 +186,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\modal.png"
+    },
+    {
+      "Identity": "C:\\Users\\jose.ansilva3\\source\\repos\\Boxino\\Boxino\\wwwroot\\js\\Oldjs.js",
+      "SourceId": "Boxino",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\jose.ansilva3\\source\\repos\\Boxino\\Boxino\\wwwroot\\",
+      "BasePath": "_content/Boxino",
+      "RelativePath": "js/Oldjs.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\Oldjs.js"
     },
     {
       "Identity": "C:\\Users\\jose.ansilva3\\source\\repos\\Boxino\\Boxino\\wwwroot\\js\\site.js",

@@ -5,12 +5,20 @@
       "PackagePath": "staticwebassets\\Boxino.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\jose.ansilva3\\source\\repos\\Boxino\\Boxino\\wwwroot\\css\\site.css",
-      "PackagePath": "staticwebassets\\css\\site.css"
+      "Id": "C:\\Users\\jose.ansilva3\\source\\repos\\Boxino\\Boxino\\wwwroot\\css\\OldSite2.css",
+      "PackagePath": "staticwebassets\\css\\OldSite2.css"
+    },
+    {
+      "Id": "C:\\Users\\jose.ansilva3\\source\\repos\\Boxino\\Boxino\\wwwroot\\css\\Site.css",
+      "PackagePath": "staticwebassets\\css\\Site.css"
     },
     {
       "Id": "C:\\Users\\jose.ansilva3\\source\\repos\\Boxino\\Boxino\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\jose.ansilva3\\source\\repos\\Boxino\\Boxino\\wwwroot\\img\\2.png",
+      "PackagePath": "staticwebassets\\img\\2.png"
     },
     {
       "Id": "C:\\Users\\jose.ansilva3\\source\\repos\\Boxino\\Boxino\\wwwroot\\img\\game_icon_full.png",
@@ -23,6 +31,10 @@
     {
       "Id": "C:\\Users\\jose.ansilva3\\source\\repos\\Boxino\\Boxino\\wwwroot\\img\\modal.png",
       "PackagePath": "staticwebassets\\img\\modal.png"
+    },
+    {
+      "Id": "C:\\Users\\jose.ansilva3\\source\\repos\\Boxino\\Boxino\\wwwroot\\js\\Oldjs.js",
+      "PackagePath": "staticwebassets\\js\\Oldjs.js"
     },
     {
       "Id": "C:\\Users\\jose.ansilva3\\source\\repos\\Boxino\\Boxino\\wwwroot\\js\\site.js",

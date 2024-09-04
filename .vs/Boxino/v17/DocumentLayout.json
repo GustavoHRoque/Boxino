@@ -7,12 +7,16 @@
       "RelativeMoniker": "D:0:0:{49044505-6173-4D1D-9905-5959C276EDCD}|Boxino\\Boxino.csproj|solutionrelative:boxino\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{49044505-6173-4D1D-9905-5959C276EDCD}|Boxino\\Boxino.csproj|c:\\users\\jose.ansilva3\\source\\repos\\boxino\\boxino\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{49044505-6173-4D1D-9905-5959C276EDCD}|Boxino\\Boxino.csproj|solutionrelative:boxino\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{49044505-6173-4D1D-9905-5959C276EDCD}|Boxino\\Boxino.csproj|c:\\users\\jose.ansilva3\\source\\repos\\boxino\\boxino\\views\\boxino\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{49044505-6173-4D1D-9905-5959C276EDCD}|Boxino\\Boxino.csproj|solutionrelative:boxino\\views\\boxino\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49044505-6173-4D1D-9905-5959C276EDCD}|Boxino\\Boxino.csproj|c:\\users\\jose.ansilva3\\source\\repos\\boxino\\boxino\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{49044505-6173-4D1D-9905-5959C276EDCD}|Boxino\\Boxino.csproj|solutionrelative:boxino\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49044505-6173-4D1D-9905-5959C276EDCD}|Boxino\\Boxino.csproj|c:\\users\\jose.ansilva3\\source\\repos\\boxino\\boxino\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{49044505-6173-4D1D-9905-5959C276EDCD}|Boxino\\Boxino.csproj|solutionrelative:boxino\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,12 +31,12 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\jose.ansilva3\\source\\repos\\Boxino\\Boxino\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "Boxino\\wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\jose.ansilva3\\source\\repos\\Boxino\\Boxino\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "Boxino\\wwwroot\\css\\site.css",
-              "ViewState": "AQIAADkAAAAAAAAAAAAowEIAAAAGAAAA",
+              "Title": "Site.css",
+              "DocumentMoniker": "C:\\Users\\jose.ansilva3\\source\\repos\\Boxino\\Boxino\\wwwroot\\css\\Site.css",
+              "RelativeDocumentMoniker": "Boxino\\wwwroot\\css\\Site.css",
+              "ToolTip": "C:\\Users\\jose.ansilva3\\source\\repos\\Boxino\\Boxino\\wwwroot\\css\\Site.css",
+              "RelativeToolTip": "Boxino\\wwwroot\\css\\Site.css",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAACoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-08-28T17:15:01.417Z",
               "IsPinned": true,
@@ -45,28 +49,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\jose.ansilva3\\source\\repos\\Boxino\\Boxino\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Boxino\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\jose.ansilva3\\source\\repos\\Boxino\\Boxino\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Boxino\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAMAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-04T17:24:57.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\jose.ansilva3\\source\\repos\\Boxino\\Boxino\\Views\\Boxino\\Index.cshtml",
               "RelativeDocumentMoniker": "Boxino\\Views\\Boxino\\Index.cshtml",
               "ToolTip": "C:\\Users\\jose.ansilva3\\source\\repos\\Boxino\\Boxino\\Views\\Boxino\\Index.cshtml",
               "RelativeToolTip": "Boxino\\Views\\Boxino\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAA9AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-09-03T17:29:55.005Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "site.js",
               "DocumentMoniker": "C:\\Users\\jose.ansilva3\\source\\repos\\Boxino\\Boxino\\wwwroot\\js\\site.js",
               "RelativeDocumentMoniker": "Boxino\\wwwroot\\js\\site.js",
               "ToolTip": "C:\\Users\\jose.ansilva3\\source\\repos\\Boxino\\Boxino\\wwwroot\\js\\site.js",
               "RelativeToolTip": "Boxino\\wwwroot\\js\\site.js",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAcAAAA",
+              "ViewState": "AQIAADMAAAAAAAAAAAAowA4AAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-08-28T17:18:17.585Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-28T17:18:17.585Z"
             }
           ]
         }

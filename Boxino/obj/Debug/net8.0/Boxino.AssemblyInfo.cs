@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Boxino")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+953b0b7970246cbf8b94d9394226c8db2005f227")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+907916217a8d227b19f523ba9d581ec6e5a1cc75")]
 [assembly: System.Reflection.AssemblyProductAttribute("Boxino")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Boxino")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
