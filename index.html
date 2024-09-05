@@ -7,14 +7,21 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body> 
-  <header>
-    <h1>Boxino</h1>
-  </header>
     <main>
+      <div class="proximo">
+        <input id="txtfase" type="text" placeholder=""> 
+        <input id="txtfase2" type="text" placeholder="" > 
+      </div>
+
+      <div class="jogar">
+        <button onclick="Jogar()">Começar</button>
+        <button onclick="Parar()">Parar</button>
+        <!-- <input type="text" id="texto" placeholder="0"> -->
+      </div> 
+
       <div class="container">
-        <img class="modal" alt="modal">
         <div class="centralizar">
-          <div class="raio">
+          <div id="raio">
             <img id="botao" onclick="bonus(this)"  src="img/game_icon_full.png" alt="teste">
             <img id="botao2" onclick="bonus(this)" src="img/game_icon_full.png" alt="teste">
             <img id="botao3" onclick="bonus(this)" src="img/game_icon_full.png" alt="teste">
@@ -27,11 +34,7 @@
         </div>
         
       </div> 
-      <div class="jogar">
-        <button onclick="Jogar()">Começar</button>
-        <button onclick="Parar()">Parar</button>
-        <input type="text" id="texto" placeholder="Pontos">
-      </div> 
+      
     </main>
     <script src="js/js.js"></script>
 </body>
