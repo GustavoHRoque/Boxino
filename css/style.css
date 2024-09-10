@@ -5,15 +5,24 @@
 }
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,600;1,900&display=swap');
 
+body {
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
 main{
-    background-color: rgba(73, 73, 226, 0.829);
     height: 100vh;
     background-image: url(../img/imgFundo.jpg);
-    background-size: cover;
+    /* background-size: cover; */
+    background-size: 1900px auto;
+    background-position: center; 
+    background-repeat: no-repeat;
 
     .proximo{ 
-        padding-top: 290px;
-        padding-left: 1090px;
+        padding-top: 280px;
+        padding-left: 1000px;
         #txtfase{
             text-align: center;
             width: 450px; 
@@ -42,34 +51,20 @@ main{
     }
 
     .jogar{
-        padding-top: 145px;
-        margin-left: 255px;
+        padding-top: 80px;
+        margin-left: 235px;
         color: red; 
-        #texto{
-            text-align: center;
-            margin-left: 15px;
-            width: 80px; 
-            height: 50px; 
-            color: red; 
-            font-size: 65px; 
-            font-weight: 600;
-            font-style: oblique;
-            border: none; 
-            outline: none; 
-            background: transparent; 
-        }
     }   
 
     .container{
         display: flex;
         align-items: center;
         justify-content: center ;
-        margin-top: 145px;
+        margin-top: 175px;
         margin-left: 510px;
         .centralizar{
             #raio{
                 width: 35%;
-                /* float: left; */
                 padding: 20px;
                 text-align: center;
                 transform: translateZ(40px);
@@ -158,27 +153,29 @@ main{
 @keyframes piscaPisca {
     0%{background-color: blue; }
     10% {background-color: blue;}
-    25% {background-color: red;}
-    35%{background-color: red;}
+    25% {background-color: yellow;}
+    35%{background-color: yellow;}
     45%{background-color: blue; }
     55% {background-color: blue;}
-    65% {background-color: red;}
-    75%{background-color: red;}
+    65% {background-color: yellow;}
+    75%{background-color: yellow;}
     85%{background-color: blue; }
     95% {background-color: blue;}
-    100% {background-color: red;}
+    100% {background-color: yellow;}
 }
 
 @keyframes textocolorido {
     0%{color: blue; }
     10% {color: blue;}
-    25% {color: red;}
-    35%{color: red;}
+    25% {color: yellow;}
+    35%{color: yellow;}
     45%{color: blue; }
     55% {color: blue;}
-    65% {color: red;}
-    75%{color: red;}
+    65% {color: yellow;}
+    75%{color: yellow;}
     85%{color: blue;}
     95% {color: blue;}
-    100% {color: red;}
+    100% {color: yellow;}
 }
+/* 1880px */
+
